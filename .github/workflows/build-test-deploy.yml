@@ -61,7 +61,7 @@ jobs:
           node-version: '20.x'
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v4
         with:
           static_site_generator: next
 
