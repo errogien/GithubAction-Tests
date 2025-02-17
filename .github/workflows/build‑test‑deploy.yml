@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
     	- name: check out repository code
-        	uses: actions/checkout@v4
+          uses: actions/checkout@v4
       	- name: use node.js
-			uses: actions/setup-nodes@v4
-			with:
-				node-version: '20.x'
-		- run: npm install	
-		- run: npm run build
+	  uses: actions/setup-nodes@v4
+	  with:
+	  	node-version: '20.x'
+	- run: npm install	
+	- run: npm run build
